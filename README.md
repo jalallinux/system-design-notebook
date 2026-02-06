@@ -16,6 +16,7 @@ All documentation is available in both **English** and **Persian (فارسی)** 
 |---|-------|---------|-----------------|
 | 1 | Two-Phase Commit (2PC) | [📄 English](docs/two-phase-commit.md) | [📄 فارسی](docs/two-phase-commit.fa.md) |
 | 2 | Saga Pattern | [📄 English](docs/saga.md) | [📄 فارسی](docs/saga.fa.md) |
+| 3 | CAP Theorem | [📄 English](docs/cap-theorem.md) | [📄 فارسی](docs/cap-theorem.fa.md) |
 
 ---
 
@@ -45,6 +46,19 @@ A design pattern for managing distributed transactions across multiple microserv
 
 **Best for:** Understanding distributed transaction management in microservices, eventual consistency patterns, and compensating transaction design.
 
+### 3. CAP Theorem
+A fundamental theorem in distributed systems that defines the trade-offs between consistency, availability, and partition tolerance. Learn about:
+- The three CAP properties explained in depth
+- Modern interpretation vs. original "pick two" formulation
+- CP systems (FoundationDB, HBase, etcd) and AP systems (Cassandra, DynamoDB)
+- CAP availability vs. operational high availability distinction
+- Practical example: FoundationDB's fault tolerance with Paxos
+- PACELC theorem extending CAP for normal operation
+- Tunable consistency with quorum-based reads/writes
+- Common misconceptions and interview frameworks
+
+**Best for:** Understanding distributed system trade-offs, database selection criteria, replication strategies, and system behavior during network partitions.
+
 ---
 
 ## How to Use This Repository
@@ -64,7 +78,7 @@ This repository is continuously updated with new system design topics. Stay tune
 - Distributed consensus algorithms (Paxos, Raft)
 - ~~Saga Pattern~~ ✅
 - Event Sourcing and CQRS
-- CAP Theorem
+- ~~CAP Theorem~~ ✅
 - Distributed caching strategies
 - Load balancing patterns
 - Database replication strategies
@@ -84,7 +98,9 @@ system-design-notebook/
 │   ├── two-phase-commit.md      # Two-Phase Commit (English)
 │   ├── two-phase-commit.fa.md   # Two-Phase Commit (Persian)
 │   ├── saga.md                  # Saga Pattern (English)
-│   └── saga.fa.md               # Saga Pattern (Persian)
+│   ├── saga.fa.md               # Saga Pattern (Persian)
+│   ├── cap-theorem.md           # CAP Theorem (English)
+│   └── cap-theorem.fa.md        # CAP Theorem (Persian)
 └── ... (more topics coming soon)
 ```
 
