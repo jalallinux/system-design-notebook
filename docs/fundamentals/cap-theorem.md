@@ -4,7 +4,7 @@
 
 The **CAP theorem** (also known as Brewer's theorem) is one of the most fundamental theorems in distributed systems. It states that a distributed data store cannot simultaneously provide more than two out of three guarantees: **Consistency**, **Availability**, and **Partition Tolerance**. Originally conjectured by Eric Brewer in 2000 and formally proven by Seth Gilbert and Nancy Lynch in 2002, the CAP theorem has become a cornerstone for understanding the trade-offs inherent in distributed system design.
 
-Understanding the CAP theorem is essential for anyone designing or evaluating distributed databases, microservices architectures, or any system that operates across multiple networked nodes. It provides a framework for reasoning about what guarantees a system can and cannot make, especially during failure scenarios.
+Understanding the CAP theorem is essential for anyone designing or evaluating distributed databases, [microservices architectures](../architecture/microservices.md), or any system that operates across multiple networked nodes. It provides a framework for reasoning about what guarantees a system can and cannot make, especially during failure scenarios.
 
 ## 2. The Three Properties
 

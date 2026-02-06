@@ -327,9 +327,12 @@ In this architecture:
 
 ## 11. Related Topics
 
-- **Event Sourcing and CQRS** — Patterns that naturally pair with Kafka for event-driven architectures
-- **Saga Pattern** — Distributed transaction management using message queues ([Saga Pattern](../distributed-transactions/saga.md))
-- **CAP Theorem** — Understanding trade-offs in distributed systems ([CAP Theorem](../fundamentals/cap-theorem.md))
+- **[Event-Driven Architecture](../event-driven/event-driven-architecture.md)** — Broader architectural style that leverages messaging systems
+- **[CQRS](../data-patterns/cqrs.md)** — Command Query Responsibility Segregation, often used with Kafka for event-driven architectures
+- **[Saga Pattern](../distributed-transactions/saga.md)** — Distributed transaction management using message queues
+- **[CAP Theorem](../fundamentals/cap-theorem.md)** — Understanding trade-offs in distributed systems
+- **[Microservices Architecture](../architecture/microservices.md)** — The architectural style that benefits most from messaging systems
+- **[Circuit Breaker](../resilience/circuit-breaker.md)** — Resilience pattern for handling messaging failures
 - **Apache Kafka Streams / ksqlDB** — Stream processing built on top of Kafka
 - **Message Queue Protocols** — AMQP, MQTT, STOMP protocol comparison
 - **Dead-Letter Queues** — Error handling pattern for message processing failures

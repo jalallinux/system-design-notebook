@@ -873,9 +873,9 @@ The Saga pattern doesn't exist in isolation. It's part of a broader ecosystem of
 
 **Example**: When Order Service creates an order, it publishes an "OrderCreated" event that triggers the next saga step.
 
-### CQRS (Often Combined)
+### [CQRS](../data-patterns/cqrs.md) (Often Combined)
 
-**Relationship**: CQRS (Command Query Responsibility Segregation) is often used alongside sagas.
+**Relationship**: [CQRS (Command Query Responsibility Segregation)](../data-patterns/cqrs.md) is often used alongside sagas.
 
 **Description**: Separate read and write models for better scalability and performance.
 
@@ -915,7 +915,7 @@ COMMIT
 
 **See**: Section 9 for detailed comparison.
 
-### Circuit Breaker (Failure Handling)
+### [Circuit Breaker](../resilience/circuit-breaker.md) (Failure Handling)
 
 **Relationship**: Used within saga implementations to handle service failures gracefully.
 
@@ -1267,10 +1267,11 @@ To deepen your understanding of distributed transactions and microservices patte
 
 - **Database per Service**: The microservices pattern that necessitates sagas
 - **Event Sourcing**: Store application state as sequence of events; often used with sagas
-- **CQRS (Command Query Responsibility Segregation)**: Separate read/write models, commonly combined with sagas
+- **[CQRS (Command Query Responsibility Segregation)](../data-patterns/cqrs.md)**: Separate read/write models, commonly combined with sagas
 - **Transactional Outbox**: Reliably publish events as part of database transactions
-- **Event-Driven Architecture**: Broader architectural style that enables choreography-based sagas
-- **Circuit Breaker**: Failure handling pattern used within saga implementations
+- **[Event-Driven Architecture](../event-driven/event-driven-architecture.md)**: Broader architectural style that enables choreography-based sagas
+- **[Circuit Breaker](../resilience/circuit-breaker.md)**: Failure handling pattern used within saga implementations
+- **[Microservices Architecture](../architecture/microservices.md)**: The architectural style that necessitates saga patterns
 - **Distributed Tracing**: Essential for observability in saga-based systems
 
 ### Advanced Topics

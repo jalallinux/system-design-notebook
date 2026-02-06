@@ -429,7 +429,7 @@ WAL شرکت‌کننده:
 معایب: واقعاً ACID نیست، سازگاری نهایی
 ```
 
-### ۳. Event Sourcing + CQRS
+### ۳. Event Sourcing + [CQRS](../data-patterns/cqrs.fa.md)
 
 ذخیره رویدادها به جای وضعیت، بازسازی وضعیت از رویدادها:
 
@@ -565,7 +565,9 @@ WAL شرکت‌کننده:
 **موضوعات مرتبط برای کاوش:**
 - Paxos و Raft (الگوریتم‌های اجماع)
 - [الگوی Saga](saga.fa.md) (جایگزین تراکنش توزیع‌شده)
-- Event Sourcing و CQRS
+- [معماری رویداد-محور](../event-driven/event-driven-architecture.fa.md) (الگوهای Event Sourcing و CQRS)
+- [CQRS](../data-patterns/cqrs.fa.md) (جداسازی مسئولیت Command و Query)
 - [قضیه CAP](../fundamentals/cap-theorem.fa.md)
+- [معماری Microservices](../architecture/microservices.fa.md)
 - قفل‌های توزیع‌شده (Redlock، Zookeeper)
 - پروتکل XA (استاندارد پیاده‌سازی 2PC)

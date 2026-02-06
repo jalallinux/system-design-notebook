@@ -429,7 +429,7 @@ Advantage: No distributed locks, better availability
 Disadvantage: Not truly ACID, eventual consistency
 ```
 
-### 3. Event Sourcing + CQRS
+### 3. Event Sourcing + [CQRS](../data-patterns/cqrs.md)
 
 Store events instead of state, rebuild state from events:
 
@@ -557,14 +557,16 @@ Availability: High (eventual consistency)
    - Eventual consistency with compensating actions
    - Idempotent operations with retry logic
 
-8. **Modern alternatives** (Saga, Event Sourcing, CQRS) trade strong consistency for better availability and scalability - often a worthwhile trade in distributed systems
+8. **Modern alternatives** (Saga, Event Sourcing, [CQRS](../data-patterns/cqrs.md)) trade strong consistency for better availability and scalability - often a worthwhile trade in distributed systems
 
 ---
 
 **Related Topics to Explore:**
 - Paxos and Raft (Consensus algorithms)
 - [Saga Pattern](saga.md) (Distributed transaction alternative)
-- Event Sourcing and CQRS
+- [Event-Driven Architecture](../event-driven/event-driven-architecture.md) (Event Sourcing and CQRS patterns)
+- [CQRS](../data-patterns/cqrs.md) (Command Query Responsibility Segregation)
 - [CAP Theorem](../fundamentals/cap-theorem.md)
+- [Microservices Architecture](../architecture/microservices.md)
 - Distributed Locks (Redlock, Zookeeper)
 - XA Protocol (2PC implementation standard)
