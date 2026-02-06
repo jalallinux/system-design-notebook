@@ -15,6 +15,7 @@ All documentation is available in both **English** and **Persian (فارسی)** 
 | # | Topic | English | Persian (فارسی) |
 |---|-------|---------|-----------------|
 | 1 | Two-Phase Commit (2PC) | [📄 English](docs/two-phase-commit.md) | [📄 فارسی](docs/two-phase-commit.fa.md) |
+| 2 | Saga Pattern | [📄 English](docs/saga.md) | [📄 فارسی](docs/saga.fa.md) |
 
 ---
 
@@ -31,6 +32,18 @@ A distributed algorithm for ensuring atomicity in distributed transactions. Lear
 - When to use and when to avoid 2PC
 
 **Best for:** Understanding distributed transaction coordination, ACID guarantees across systems, and CAP theorem implications.
+
+### 2. Saga Pattern
+A design pattern for managing distributed transactions across multiple microservices. Learn about:
+- Choreography vs Orchestration coordination approaches
+- Compensating transactions and failure handling
+- Practical e-commerce order processing example
+- Isolation challenges and countermeasures
+- Saga vs Two-Phase Commit comparison
+- Real-world applications and industry adoption
+- Modern system design implications (cloud-native, Kubernetes, serverless)
+
+**Best for:** Understanding distributed transaction management in microservices, eventual consistency patterns, and compensating transaction design.
 
 ---
 
@@ -49,7 +62,7 @@ A distributed algorithm for ensuring atomicity in distributed transactions. Lear
 
 This repository is continuously updated with new system design topics. Stay tuned for more content on:
 - Distributed consensus algorithms (Paxos, Raft)
-- Saga Pattern
+- ~~Saga Pattern~~ ✅
 - Event Sourcing and CQRS
 - CAP Theorem
 - Distributed caching strategies
@@ -69,7 +82,9 @@ system-design-notebook/
 │       └── communication.md     # Communication and translation rules
 ├── docs/                        # Documentation files
 │   ├── two-phase-commit.md      # Two-Phase Commit (English)
-│   └── two-phase-commit.fa.md   # Two-Phase Commit (Persian)
+│   ├── two-phase-commit.fa.md   # Two-Phase Commit (Persian)
+│   ├── saga.md                  # Saga Pattern (English)
+│   └── saga.fa.md               # Saga Pattern (Persian)
 └── ... (more topics coming soon)
 ```
 
