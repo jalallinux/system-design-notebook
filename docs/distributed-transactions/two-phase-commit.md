@@ -347,7 +347,7 @@ Example latency calculation:
 - Not suitable for highly distributed systems (100+ nodes)
 
 **✗ Availability Concerns**
-- Violates availability in CAP theorem
+- Violates availability in [CAP theorem](../fundamentals/cap-theorem.md)
 - Chooses consistency over availability
 - During network partitions, system may halt
 
@@ -387,7 +387,7 @@ Example latency calculation:
 - Prefer BASE over ACID
 
 **2. Modern Microservices**
-- Netflix, Uber, Airbnb: Use Saga pattern instead
+- Netflix, Uber, Airbnb: Use [Saga pattern](saga.md) instead
 - Prefer availability and partition tolerance
 - Accept eventual consistency
 
@@ -550,7 +550,7 @@ Availability: High (eventual consistency)
 
 5. **Still valuable** for small-scale distributed transactions where strong consistency is non-negotiable (financial systems, critical business transactions)
 
-6. **CAP theorem implications** - 2PC chooses CP (Consistency + Partition tolerance) at the expense of Availability
+6. **[CAP theorem](../fundamentals/cap-theorem.md) implications** - 2PC chooses CP (Consistency + Partition tolerance) at the expense of Availability
 
 7. **Use judiciously** - consider if you really need distributed transactions or if your problem can be solved with:
    - Single database with proper schema design
@@ -563,8 +563,8 @@ Availability: High (eventual consistency)
 
 **Related Topics to Explore:**
 - Paxos and Raft (Consensus algorithms)
-- Saga Pattern (Distributed transaction alternative)
+- [Saga Pattern](saga.md) (Distributed transaction alternative)
 - Event Sourcing and CQRS
-- CAP Theorem
+- [CAP Theorem](../fundamentals/cap-theorem.md)
 - Distributed Locks (Redlock, Zookeeper)
 - XA Protocol (2PC implementation standard)

@@ -454,8 +454,8 @@ The CAP theorem is a frequent topic in system design interviews. Here's how to e
 - **Strong Consistency (Linearizability)**: The consistency model of CP systems where reads always reflect the latest write
 - **CRDTs (Conflict-free Replicated Data Types)**: Data structures that can be replicated across nodes and merged without conflicts
 - **Vector Clocks**: Mechanism for tracking causality in distributed systems to detect and resolve conflicts
-- **Two-Phase Commit (2PC)**: Distributed transaction protocol that provides consistency but sacrifices availability
-- **Saga Pattern**: Pattern for managing distributed transactions with eventual consistency
+- **[Two-Phase Commit (2PC)](../distributed-transactions/two-phase-commit.md)**: Distributed transaction protocol that provides consistency but sacrifices availability
+- **[Saga Pattern](../distributed-transactions/saga.md)**: Pattern for managing distributed transactions with eventual consistency
 - **Quorum**: The minimum number of nodes that must agree for an operation to succeed
 
 ## 14. Summary

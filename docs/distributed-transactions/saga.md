@@ -6,7 +6,7 @@ The **Saga pattern** is a design pattern for managing distributed transactions a
 
 Unlike traditional ACID transactions that provide immediate consistency, sagas provide eventual consistency and are particularly useful in microservices architectures where services need to maintain autonomy while coordinating complex business processes.
 
-The Saga pattern serves as a practical alternative to distributed transaction protocols like Two-Phase Commit (2PC), especially in environments where:
+The Saga pattern serves as a practical alternative to distributed transaction protocols like [Two-Phase Commit (2PC)](two-phase-commit.md), especially in environments where:
 - Services use different types of databases (SQL and NoSQL)
 - High availability is more important than immediate consistency
 - Blocking operations are unacceptable
@@ -805,7 +805,7 @@ Understanding where the Saga pattern is used (and where it's not) helps guide de
 
 **Why Not**: Require strong ACID guarantees, immediate consistency critical, cannot accept eventual consistency.
 
-**Use Instead**: Two-Phase Commit, distributed databases with strong consistency.
+**Use Instead**: [Two-Phase Commit](two-phase-commit.md), distributed databases with strong consistency.
 
 **2. Real-Time Trading Execution**
 
@@ -905,7 +905,7 @@ COMMIT
 // Separate process polls outbox and publishes events
 ```
 
-### Two-Phase Commit (Alternative Pattern)
+### [Two-Phase Commit](two-phase-commit.md) (Alternative Pattern)
 
 **Relationship**: Saga is an alternative to 2PC for distributed transactions.
 
