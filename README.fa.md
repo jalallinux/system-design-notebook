@@ -15,27 +15,27 @@
 | اولویت | موضوع | دسته‌بندی | انگلیسی (English) | فارسی |
 |--------|-------|-----------|---------|-----------------|
 | 1 | قضیه CAP | مبانی | [📄 English](docs/fundamentals/cap-theorem.md) | [📄 فارسی](docs/fundamentals/cap-theorem.fa.md) |
-| 2 | دو مرحله‌ای تایید (2PC) | تراکنش‌های توزیع‌شده | [📄 English](docs/distributed-transactions/two-phase-commit.md) | [📄 فارسی](docs/distributed-transactions/two-phase-commit.fa.md) |
-| 3 | الگوی Saga | تراکنش‌های توزیع‌شده | [📄 English](docs/distributed-transactions/saga.md) | [📄 فارسی](docs/distributed-transactions/saga.fa.md) |
-| 4 | معماری Monolithic | معماری | [📄 English](docs/architecture/monolithic.md) | [📄 فارسی](docs/architecture/monolithic.fa.md) |
-| 5 | معماری Microservices | معماری | [📄 English](docs/architecture/microservices.md) | [📄 فارسی](docs/architecture/microservices.fa.md) |
-| 6 | الگوی API Gateway | معماری | [📄 English](docs/architecture/api-gateway.md) | [📄 فارسی](docs/architecture/api-gateway.fa.md) |
-| 7 | الگوی Backend for Frontend (BFF) | معماری | [📄 English](docs/architecture/backend-for-frontend.md) | [📄 فارسی](docs/architecture/backend-for-frontend.fa.md) |
-| 8 | الگوی Circuit Breaker | تاب‌آوری | [📄 English](docs/resilience/circuit-breaker.md) | [📄 فارسی](docs/resilience/circuit-breaker.fa.md) |
+| 2 | معماری Monolithic | معماری | [📄 English](docs/architecture/monolithic.md) | [📄 فارسی](docs/architecture/monolithic.fa.md) |
+| 3 | معماری Microservices | معماری | [📄 English](docs/architecture/microservices.md) | [📄 فارسی](docs/architecture/microservices.fa.md) |
+| 4 | فراخوانی از راه دور (RPI) | ارتباطات | [📄 English](docs/communication/rpi.md) | [📄 فارسی](docs/communication/rpi.fa.md) |
+| 5 | الگوی API Gateway | معماری | [📄 English](docs/architecture/api-gateway.md) | [📄 فارسی](docs/architecture/api-gateway.fa.md) |
+| 6 | الگوی Backend for Frontend (BFF) | معماری | [📄 English](docs/architecture/backend-for-frontend.md) | [📄 فارسی](docs/architecture/backend-for-frontend.fa.md) |
+| 7 | پایگاه داده به ازای هر سرویس | الگوهای داده | [📄 English](docs/data-patterns/database-per-service.md) | [📄 فارسی](docs/data-patterns/database-per-service.fa.md) |
+| 8 | پایگاه داده مشترک | الگوهای داده | [📄 English](docs/data-patterns/shared-database.md) | [📄 فارسی](docs/data-patterns/shared-database.fa.md) |
 | 9 | پیام‌رسانی (Messaging) | ارتباطات | [📄 English](docs/communication/messaging.md) | [📄 فارسی](docs/communication/messaging.fa.md) |
-| 10 | معماری رویداد-محور | رویداد-محور | [📄 English](docs/event-driven/event-driven-architecture.md) | [📄 فارسی](docs/event-driven/event-driven-architecture.fa.md) |
-| 11 | رویداد دامنه | رویداد-محور | [📄 English](docs/event-driven/domain-event.md) | [📄 فارسی](docs/event-driven/domain-event.fa.md) |
-| 12 | منبع‌یابی رویداد (Event Sourcing) | رویداد-محور | [📄 English](docs/event-driven/event-sourcing.md) | [📄 فارسی](docs/event-driven/event-sourcing.fa.md) |
-| 13 | CQRS | الگوهای داده | [📄 English](docs/data-patterns/cqrs.md) | [📄 فارسی](docs/data-patterns/cqrs.fa.md) |
-| 14 | پایگاه داده به ازای هر سرویس | الگوهای داده | [📄 English](docs/data-patterns/database-per-service.md) | [📄 فارسی](docs/data-patterns/database-per-service.fa.md) |
-| 15 | پایگاه داده مشترک | الگوهای داده | [📄 English](docs/data-patterns/shared-database.md) | [📄 فارسی](docs/data-patterns/shared-database.fa.md) |
-| 16 | ترکیب API | الگوهای داده | [📄 English](docs/data-patterns/api-composition.md) | [📄 فارسی](docs/data-patterns/api-composition.fa.md) |
-| 17 | الگوی Command-side Replica | الگوهای داده | [📄 English](docs/data-patterns/command-side-replica.md) | [📄 فارسی](docs/data-patterns/command-side-replica.fa.md) |
-| 18 | مقایسه RabbitMQ و Kafka | پیام‌رسانی | [📄 English](docs/messaging/rabbitmq-vs-kafka.md) | [📄 فارسی](docs/messaging/rabbitmq-vs-kafka.fa.md) |
-| 19 | الگوی Transactional Outbox | پیام‌رسانی | [📄 English](docs/messaging/transactional-outbox.md) | [📄 فارسی](docs/messaging/transactional-outbox.fa.md) |
-| 20 | الگوی Polling Publisher | پیام‌رسانی | [📄 English](docs/messaging/polling-publisher.md) | [📄 فارسی](docs/messaging/polling-publisher.fa.md) |
-| 21 | خواندن لاگ تراکنش (CDC) | پیام‌رسانی | [📄 English](docs/messaging/transaction-log-tailing.md) | [📄 فارسی](docs/messaging/transaction-log-tailing.fa.md) |
-| 22 | فراخوانی از راه دور (RPI) | ارتباطات | [📄 English](docs/communication/rpi.md) | [📄 فارسی](docs/communication/rpi.fa.md) |
+| 10 | مقایسه RabbitMQ و Kafka | پیام‌رسانی | [📄 English](docs/messaging/rabbitmq-vs-kafka.md) | [📄 فارسی](docs/messaging/rabbitmq-vs-kafka.fa.md) |
+| 11 | دو مرحله‌ای تایید (2PC) | تراکنش‌های توزیع‌شده | [📄 English](docs/distributed-transactions/two-phase-commit.md) | [📄 فارسی](docs/distributed-transactions/two-phase-commit.fa.md) |
+| 12 | الگوی Saga | تراکنش‌های توزیع‌شده | [📄 English](docs/distributed-transactions/saga.md) | [📄 فارسی](docs/distributed-transactions/saga.fa.md) |
+| 13 | الگوی Circuit Breaker | تاب‌آوری | [📄 English](docs/resilience/circuit-breaker.md) | [📄 فارسی](docs/resilience/circuit-breaker.fa.md) |
+| 14 | معماری رویداد-محور | رویداد-محور | [📄 English](docs/event-driven/event-driven-architecture.md) | [📄 فارسی](docs/event-driven/event-driven-architecture.fa.md) |
+| 15 | رویداد دامنه | رویداد-محور | [📄 English](docs/event-driven/domain-event.md) | [📄 فارسی](docs/event-driven/domain-event.fa.md) |
+| 16 | منبع‌یابی رویداد (Event Sourcing) | رویداد-محور | [📄 English](docs/event-driven/event-sourcing.md) | [📄 فارسی](docs/event-driven/event-sourcing.fa.md) |
+| 17 | CQRS | الگوهای داده | [📄 English](docs/data-patterns/cqrs.md) | [📄 فارسی](docs/data-patterns/cqrs.fa.md) |
+| 18 | ترکیب API | الگوهای داده | [📄 English](docs/data-patterns/api-composition.md) | [📄 فارسی](docs/data-patterns/api-composition.fa.md) |
+| 19 | الگوی Command-side Replica | الگوهای داده | [📄 English](docs/data-patterns/command-side-replica.md) | [📄 فارسی](docs/data-patterns/command-side-replica.fa.md) |
+| 20 | الگوی Transactional Outbox | پیام‌رسانی | [📄 English](docs/messaging/transactional-outbox.md) | [📄 فارسی](docs/messaging/transactional-outbox.fa.md) |
+| 21 | الگوی Polling Publisher | پیام‌رسانی | [📄 English](docs/messaging/polling-publisher.md) | [📄 فارسی](docs/messaging/polling-publisher.fa.md) |
+| 22 | خواندن لاگ تراکنش (CDC) | پیام‌رسانی | [📄 English](docs/messaging/transaction-log-tailing.md) | [📄 فارسی](docs/messaging/transaction-log-tailing.fa.md) |
 | 23 | مصرف‌کننده توان‌وار | ارتباطات | [📄 English](docs/communication/idempotent-consumer.md) | [📄 فارسی](docs/communication/idempotent-consumer.fa.md) |
 | 24 | پروتکل خاص دامنه | ارتباطات | [📄 English](docs/communication/domain-specific-protocol.md) | [📄 فارسی](docs/communication/domain-specific-protocol.fa.md) |
 | 25 | معماری Serverless | معماری | [📄 English](docs/architecture/serverless.md) | [📄 فارسی](docs/architecture/serverless.fa.md) |

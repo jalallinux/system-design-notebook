@@ -15,27 +15,27 @@ All documentation is available in both **English** and **Persian (فارسی)** 
 | Priority | Topic | Category | English | Persian (فارسی) |
 |----------|-------|----------|---------|-----------------|
 | 1 | CAP Theorem | Fundamentals | [📄 English](docs/fundamentals/cap-theorem.md) | [📄 فارسی](docs/fundamentals/cap-theorem.fa.md) |
-| 2 | Two-Phase Commit (2PC) | Distributed Transactions | [📄 English](docs/distributed-transactions/two-phase-commit.md) | [📄 فارسی](docs/distributed-transactions/two-phase-commit.fa.md) |
-| 3 | Saga Pattern | Distributed Transactions | [📄 English](docs/distributed-transactions/saga.md) | [📄 فارسی](docs/distributed-transactions/saga.fa.md) |
-| 4 | Monolithic Architecture | Architecture | [📄 English](docs/architecture/monolithic.md) | [📄 فارسی](docs/architecture/monolithic.fa.md) |
-| 5 | Microservices Architecture | Architecture | [📄 English](docs/architecture/microservices.md) | [📄 فارسی](docs/architecture/microservices.fa.md) |
-| 6 | API Gateway Pattern | Architecture | [📄 English](docs/architecture/api-gateway.md) | [📄 فارسی](docs/architecture/api-gateway.fa.md) |
-| 7 | Backend for Frontend (BFF) Pattern | Architecture | [📄 English](docs/architecture/backend-for-frontend.md) | [📄 فارسی](docs/architecture/backend-for-frontend.fa.md) |
-| 8 | Circuit Breaker Pattern | Resilience | [📄 English](docs/resilience/circuit-breaker.md) | [📄 فارسی](docs/resilience/circuit-breaker.fa.md) |
+| 2 | Monolithic Architecture | Architecture | [📄 English](docs/architecture/monolithic.md) | [📄 فارسی](docs/architecture/monolithic.fa.md) |
+| 3 | Microservices Architecture | Architecture | [📄 English](docs/architecture/microservices.md) | [📄 فارسی](docs/architecture/microservices.fa.md) |
+| 4 | Remote Procedure Invocation (RPI) | Communication | [📄 English](docs/communication/rpi.md) | [📄 فارسی](docs/communication/rpi.fa.md) |
+| 5 | API Gateway Pattern | Architecture | [📄 English](docs/architecture/api-gateway.md) | [📄 فارسی](docs/architecture/api-gateway.fa.md) |
+| 6 | Backend for Frontend (BFF) Pattern | Architecture | [📄 English](docs/architecture/backend-for-frontend.md) | [📄 فارسی](docs/architecture/backend-for-frontend.fa.md) |
+| 7 | Database per Service | Data Patterns | [📄 English](docs/data-patterns/database-per-service.md) | [📄 فارسی](docs/data-patterns/database-per-service.fa.md) |
+| 8 | Shared Database | Data Patterns | [📄 English](docs/data-patterns/shared-database.md) | [📄 فارسی](docs/data-patterns/shared-database.fa.md) |
 | 9 | Messaging | Communication | [📄 English](docs/communication/messaging.md) | [📄 فارسی](docs/communication/messaging.fa.md) |
-| 10 | Event-Driven Architecture | Event-Driven | [📄 English](docs/event-driven/event-driven-architecture.md) | [📄 فارسی](docs/event-driven/event-driven-architecture.fa.md) |
-| 11 | Domain Event | Event-Driven | [📄 English](docs/event-driven/domain-event.md) | [📄 فارسی](docs/event-driven/domain-event.fa.md) |
-| 12 | Event Sourcing | Event-Driven | [📄 English](docs/event-driven/event-sourcing.md) | [📄 فارسی](docs/event-driven/event-sourcing.fa.md) |
-| 13 | CQRS | Data Patterns | [📄 English](docs/data-patterns/cqrs.md) | [📄 فارسی](docs/data-patterns/cqrs.fa.md) |
-| 14 | Database per Service | Data Patterns | [📄 English](docs/data-patterns/database-per-service.md) | [📄 فارسی](docs/data-patterns/database-per-service.fa.md) |
-| 15 | Shared Database | Data Patterns | [📄 English](docs/data-patterns/shared-database.md) | [📄 فارسی](docs/data-patterns/shared-database.fa.md) |
-| 16 | API Composition | Data Patterns | [📄 English](docs/data-patterns/api-composition.md) | [📄 فارسی](docs/data-patterns/api-composition.fa.md) |
-| 17 | Command-side Replica | Data Patterns | [📄 English](docs/data-patterns/command-side-replica.md) | [📄 فارسی](docs/data-patterns/command-side-replica.fa.md) |
-| 18 | RabbitMQ vs Kafka | Messaging | [📄 English](docs/messaging/rabbitmq-vs-kafka.md) | [📄 فارسی](docs/messaging/rabbitmq-vs-kafka.fa.md) |
-| 19 | Transactional Outbox | Messaging | [📄 English](docs/messaging/transactional-outbox.md) | [📄 فارسی](docs/messaging/transactional-outbox.fa.md) |
-| 20 | Polling Publisher | Messaging | [📄 English](docs/messaging/polling-publisher.md) | [📄 فارسی](docs/messaging/polling-publisher.fa.md) |
-| 21 | Transaction Log Tailing (CDC) | Messaging | [📄 English](docs/messaging/transaction-log-tailing.md) | [📄 فارسی](docs/messaging/transaction-log-tailing.fa.md) |
-| 22 | Remote Procedure Invocation (RPI) | Communication | [📄 English](docs/communication/rpi.md) | [📄 فارسی](docs/communication/rpi.fa.md) |
+| 10 | RabbitMQ vs Kafka | Messaging | [📄 English](docs/messaging/rabbitmq-vs-kafka.md) | [📄 فارسی](docs/messaging/rabbitmq-vs-kafka.fa.md) |
+| 11 | Two-Phase Commit (2PC) | Distributed Transactions | [📄 English](docs/distributed-transactions/two-phase-commit.md) | [📄 فارسی](docs/distributed-transactions/two-phase-commit.fa.md) |
+| 12 | Saga Pattern | Distributed Transactions | [📄 English](docs/distributed-transactions/saga.md) | [📄 فارسی](docs/distributed-transactions/saga.fa.md) |
+| 13 | Circuit Breaker Pattern | Resilience | [📄 English](docs/resilience/circuit-breaker.md) | [📄 فارسی](docs/resilience/circuit-breaker.fa.md) |
+| 14 | Event-Driven Architecture | Event-Driven | [📄 English](docs/event-driven/event-driven-architecture.md) | [📄 فارسی](docs/event-driven/event-driven-architecture.fa.md) |
+| 15 | Domain Event | Event-Driven | [📄 English](docs/event-driven/domain-event.md) | [📄 فارسی](docs/event-driven/domain-event.fa.md) |
+| 16 | Event Sourcing | Event-Driven | [📄 English](docs/event-driven/event-sourcing.md) | [📄 فارسی](docs/event-driven/event-sourcing.fa.md) |
+| 17 | CQRS | Data Patterns | [📄 English](docs/data-patterns/cqrs.md) | [📄 فارسی](docs/data-patterns/cqrs.fa.md) |
+| 18 | API Composition | Data Patterns | [📄 English](docs/data-patterns/api-composition.md) | [📄 فارسی](docs/data-patterns/api-composition.fa.md) |
+| 19 | Command-side Replica | Data Patterns | [📄 English](docs/data-patterns/command-side-replica.md) | [📄 فارسی](docs/data-patterns/command-side-replica.fa.md) |
+| 20 | Transactional Outbox | Messaging | [📄 English](docs/messaging/transactional-outbox.md) | [📄 فارسی](docs/messaging/transactional-outbox.fa.md) |
+| 21 | Polling Publisher | Messaging | [📄 English](docs/messaging/polling-publisher.md) | [📄 فارسی](docs/messaging/polling-publisher.fa.md) |
+| 22 | Transaction Log Tailing (CDC) | Messaging | [📄 English](docs/messaging/transaction-log-tailing.md) | [📄 فارسی](docs/messaging/transaction-log-tailing.fa.md) |
 | 23 | Idempotent Consumer | Communication | [📄 English](docs/communication/idempotent-consumer.md) | [📄 فارسی](docs/communication/idempotent-consumer.fa.md) |
 | 24 | Domain-Specific Protocol | Communication | [📄 English](docs/communication/domain-specific-protocol.md) | [📄 فارسی](docs/communication/domain-specific-protocol.fa.md) |
 | 25 | Serverless Architecture | Architecture | [📄 English](docs/architecture/serverless.md) | [📄 فارسی](docs/architecture/serverless.fa.md) |
@@ -65,35 +65,9 @@ A fundamental theorem in distributed systems that defines the trade-offs between
 
 **Best for:** Understanding distributed system trade-offs, database selection criteria, replication strategies, and system behavior during network partitions.
 
-### Distributed Transactions
-
-#### 2. Two-Phase Commit (2PC)
-A distributed algorithm for ensuring atomicity in distributed transactions. Learn about:
-- Problem statement and solution overview
-- Detailed phase breakdown (Prepare & Commit)
-- Practical examples (bank transfers)
-- Failure scenarios and recovery mechanisms
-- Trade-offs and real-world applications
-- Alternative patterns (Saga, Event Sourcing, 3PC)
-- When to use and when to avoid 2PC
-
-**Best for:** Understanding distributed transaction coordination, ACID guarantees across systems, and CAP theorem implications.
-
-#### 3. Saga Pattern
-A design pattern for managing distributed transactions across multiple microservices. Learn about:
-- Choreography vs Orchestration coordination approaches
-- Compensating transactions and failure handling
-- Practical e-commerce order processing example
-- Isolation challenges and countermeasures
-- Saga vs Two-Phase Commit comparison
-- Real-world applications and industry adoption
-- Modern system design implications (cloud-native, Kubernetes, serverless)
-
-**Best for:** Understanding distributed transaction management in microservices, eventual consistency patterns, and compensating transaction design.
-
 ### Architecture
 
-#### 4. Monolithic Architecture
+#### 2. Monolithic Architecture
 The traditional architectural approach where an application is built as a single, unified unit. Learn about:
 - What defines a monolithic architecture and its internal structure
 - Benefits: simple development, testing, deployment, and debugging
@@ -105,7 +79,7 @@ The traditional architectural approach where an application is built as a single
 
 **Best for:** Understanding the baseline architecture before microservices, knowing when a monolith is the right choice, and planning migration strategies.
 
-#### 5. Microservices Architecture
+#### 3. Microservices Architecture
 A comprehensive guide to microservices architectural style for building distributed systems. Learn about:
 - Monolithic vs Microservices comparison with trade-offs
 - The 9 key characteristics from Martin Fowler (componentization via services, organized around business capabilities, smart endpoints/dumb pipes, decentralized governance, etc.)
@@ -116,7 +90,24 @@ A comprehensive guide to microservices architectural style for building distribu
 
 **Best for:** Understanding when to use microservices vs monoliths, service decomposition strategies, and the ecosystem of patterns needed for successful microservices adoption.
 
-#### 6. API Gateway Pattern
+### Communication
+
+#### 4. Remote Procedure Invocation (RPI)
+A synchronous inter-service communication pattern where a client sends a request to a remote service and blocks until a response is received (request/reply). Learn about:
+- RPI as the synchronous counterpart to asynchronous messaging
+- REST over HTTP: resource-oriented, JSON, HTTP caching, wide browser support
+- gRPC: binary Protocol Buffers, HTTP/2, streaming, code generation for 10+ languages
+- REST vs gRPC comparison (performance, serialization, tooling, browser support, streaming)
+- Service discovery: client-side vs server-side discovery for locating service instances
+- Failure handling: timeouts, retries with exponential backoff, Circuit Breaker integration
+- When to use RPI vs Messaging decision framework
+- Real-world usage: Google (gRPC origin from Stubby), Netflix, Uber hybrid approaches
+
+**Best for:** Understanding synchronous inter-service communication in microservices, choosing between REST and gRPC, service discovery patterns, and building resilient RPI with proper failure handling.
+
+### Architecture (continued)
+
+#### 5. API Gateway Pattern
 The API Gateway pattern for managing client-to-microservice communication. Learn about:
 - Request routing, composition, and protocol translation
 - Core features: authentication, rate limiting, load balancing, caching, SSL termination
@@ -127,7 +118,7 @@ The API Gateway pattern for managing client-to-microservice communication. Learn
 
 **Best for:** Understanding API management in microservices, request aggregation, cross-cutting concerns, and the BFF pattern.
 
-#### 7. Backend for Frontend (BFF) Pattern
+#### 6. Backend for Frontend (BFF) Pattern
 A dedicated backend service per frontend type, evolved from the API Gateway pattern. Learn about:
 - One BFF per frontend type (web, mobile, TV, partner API) with tailored data shapes
 - Origin: Sam Newman coined the term, evolved from API Gateway pattern
@@ -140,20 +131,34 @@ A dedicated backend service per frontend type, evolved from the API Gateway patt
 
 **Best for:** Understanding how to optimize APIs for different client types, frontend team autonomy, and reducing over-fetching in microservices architectures.
 
-### Resilience
+### Data Patterns
 
-#### 8. Circuit Breaker Pattern
-A design pattern that prevents cascading failures in distributed systems by monitoring for failures and temporarily blocking requests to failing services. Learn about:
-- The three states: CLOSED, OPEN, and HALF-OPEN with state machine diagram
-- Fallback strategies (cached responses, default values, alternative services, graceful degradation)
-- Circuit Breaker vs Retry pattern comparison
-- Implementation with popular libraries (Resilience4j, Polly, Hystrix, Istio)
-- Monitoring, alerting, and Prometheus metrics
-- Real-world examples from Netflix, Amazon, Uber, and Twitter
+#### 7. Database per Service
+A foundational data management pattern in microservices architecture where each service owns a private database inaccessible by other services. Learn about:
+- Private database per service with varying levels of isolation (private tables, private schema, private DB server, polyglot persistence)
+- How services access each other's data exclusively through APIs
+- Data consistency challenges and solutions (Saga pattern, eventual consistency)
+- Cross-service querying strategies (API Composition, CQRS)
+- Polyglot persistence: choosing the best database technology per service
+- Real-world examples: e-commerce with PostgreSQL, MongoDB, and Elasticsearch
+- Trade-offs between data isolation and operational complexity
 
-**Best for:** Understanding resilience patterns in microservices, cascading failure prevention, graceful degradation, and building fault-tolerant distributed systems.
+**Best for:** Understanding data architecture in microservices, service decoupling at the data layer, polyglot persistence strategies, and managing distributed data consistency.
 
-### Communication
+#### 8. Shared Database
+The traditional approach to data management where multiple services share a single centralized database. Learn about:
+- Why shared database is the natural starting point for monolith-to-microservices migrations
+- Two variants: shared tables vs shared server with separate schemas
+- ACID transactions across service boundaries without distributed transaction complexity
+- The coupling problem: schema changes breaking multiple services simultaneously
+- Comparison with Database per Service pattern
+- When shared database is acceptable and when to migrate away
+- Real-world usage in enterprises, financial institutions, and legacy systems
+- Step-by-step migration example from monolith to microservices
+
+**Best for:** Understanding data management trade-offs during microservices migration, when shared databases are a pragmatic choice, and planning the transition to Database per Service.
+
+### Communication (continued)
 
 #### 9. Messaging
 An asynchronous inter-service communication pattern where services exchange messages through a message broker without direct coupling. Learn about:
@@ -168,110 +173,9 @@ An asynchronous inter-service communication pattern where services exchange mess
 
 **Best for:** Understanding asynchronous inter-service communication, message broker selection, and designing loosely coupled event-driven systems.
 
-### Event-Driven
-
-#### 10. Event-Driven Architecture
-A comprehensive guide to event-driven architecture patterns and their applications. Learn about:
-- Four patterns from Martin Fowler: Event Notification, Event-Carried State Transfer, Event Sourcing, CQRS
-- Event delivery guarantees: at-most-once, at-least-once, exactly-once
-- Message brokers vs event streams comparison
-- Choreography vs orchestration for event-driven workflows
-- Event Sourcing deep dive: event store, snapshots, temporal queries
-- Trade-offs: loose coupling and scalability vs complexity and debugging difficulty
-
-**Best for:** Understanding event-driven patterns, Event Sourcing, and building loosely coupled, scalable systems.
-
-#### 11. Domain Event
-A pattern from Domain-Driven Design (DDD) for capturing significant state changes in the domain model. Learn about:
-- Domain Events as immutable facts about what happened (OrderPlaced, PaymentReceived)
-- Event structure: eventId, eventType, timestamp, aggregateId, payload, metadata
-- Naming conventions (past tense) and event granularity (coarse vs fine-grained)
-- Publishing from aggregates vs application services
-- Guaranteed publishing with the Transactional Outbox pattern
-- Domain Events vs Integration Events distinction
-- E-commerce example: OrderPlaced triggering inventory, payment, and notification
-- Real-world usage at Amazon, Netflix, Uber, Shopify, and Stripe
-
-**Best for:** Understanding how microservices communicate state changes, DDD event modeling, reliable event publishing, and building extensible event-driven systems.
-
-#### 12. Event Sourcing
-A pattern that stores the state of an entity as a sequence of immutable events rather than the current state. Learn about:
-- Traditional state storage vs event sourcing approach
-- Event store architecture and schema design
-- State reconstruction by replaying events
-- Snapshot optimization for performance
-- Natural pairing with CQRS for separate read/write models
-- Event schema evolution strategies (upcasting, versioning, weak schema)
-- Banking and shopping cart examples with temporal queries
-- Real-world implementations: LMAX Exchange, banking, healthcare, betting platforms
-
-**Best for:** Understanding how to build audit-complete systems, implement temporal queries, and combine Event Sourcing with CQRS for complex domain models.
-
-### Data Patterns
-
-#### 13. CQRS (Command Query Responsibility Segregation)
-An architectural pattern that separates read operations from write operations using different models. Learn about:
-- CQS principle vs CQRS pattern
-- Traditional CRUD vs CQRS architecture comparison
-- Command model (write side) and Query model (read side)
-- Natural pairing with Event Sourcing
-- Synchronization strategies and eventual consistency implications
-- Read model optimization (denormalized views, materialized views, hybrid databases)
-- Real-world examples (e-commerce product catalog, banking ledger system)
-
-**Best for:** Understanding read/write separation patterns, eventual consistency handling, and optimizing systems with very different read and write requirements.
-
-#### 14. Database per Service
-A foundational data management pattern in microservices architecture where each service owns a private database inaccessible by other services. Learn about:
-- Private database per service with varying levels of isolation (private tables, private schema, private DB server, polyglot persistence)
-- How services access each other's data exclusively through APIs
-- Data consistency challenges and solutions (Saga pattern, eventual consistency)
-- Cross-service querying strategies (API Composition, CQRS)
-- Polyglot persistence: choosing the best database technology per service
-- Real-world examples: e-commerce with PostgreSQL, MongoDB, and Elasticsearch
-- Trade-offs between data isolation and operational complexity
-
-**Best for:** Understanding data architecture in microservices, service decoupling at the data layer, polyglot persistence strategies, and managing distributed data consistency.
-
-#### 15. Shared Database
-The traditional approach to data management where multiple services share a single centralized database. Learn about:
-- Why shared database is the natural starting point for monolith-to-microservices migrations
-- Two variants: shared tables vs shared server with separate schemas
-- ACID transactions across service boundaries without distributed transaction complexity
-- The coupling problem: schema changes breaking multiple services simultaneously
-- Comparison with Database per Service pattern
-- When shared database is acceptable and when to migrate away
-- Real-world usage in enterprises, financial institutions, and legacy systems
-- Step-by-step migration example from monolith to microservices
-
-**Best for:** Understanding data management trade-offs during microservices migration, when shared databases are a pragmatic choice, and planning the transition to Database per Service.
-
-#### 16. API Composition
-A pattern for querying data spread across multiple microservices by invoking their APIs and combining the results in memory. Learn about:
-- How API Composition replaces SQL JOINs when migrating to microservices
-- Two approaches: API Gateway as composer vs dedicated composer service
-- Failure handling strategies: partial results, fallbacks, default values
-- Performance optimization: sequential vs parallel vs hybrid execution
-- Availability impact: combined availability decreases with each service dependency
-- When to outgrow API Composition and move to CQRS
-- Real-world usage: Netflix API Gateway, GraphQL as composition layer, Amazon product pages
-
-**Best for:** Understanding cross-service data querying in microservices, choosing between API Composition and CQRS, and managing the availability trade-offs.
-
-#### 17. Command-side Replica
-A pattern where a service maintains a local read-only replica of another service's data to support command-side validation without cross-service calls. Learn about:
-- How command-side replicas differ from CQRS read models
-- Event-driven synchronization from the source service
-- Using replicas for real-time command validation without network calls
-- Eventual consistency considerations and conflict resolution
-- When to use vs alternatives (API calls, CQRS, shared database)
-- Real-world usage at Amazon, Uber, Netflix, and banking systems
-
-**Best for:** Understanding how services can validate commands locally using replicated data, reducing inter-service coupling and latency in command processing.
-
 ### Messaging
 
-#### 18. RabbitMQ vs Kafka
+#### 10. RabbitMQ vs Kafka
 A comprehensive comparison of two of the most popular messaging technologies in distributed systems. Learn about:
 - Core concepts: message broker vs event streaming platform
 - Background workers vs event-driven processing patterns
@@ -284,7 +188,124 @@ A comprehensive comparison of two of the most popular messaging technologies in 
 
 **Best for:** Understanding messaging system selection criteria, asynchronous communication patterns, and designing event-driven or task-based architectures.
 
-#### 19. Transactional Outbox
+### Distributed Transactions
+
+#### 11. Two-Phase Commit (2PC)
+A distributed algorithm for ensuring atomicity in distributed transactions. Learn about:
+- Problem statement and solution overview
+- Detailed phase breakdown (Prepare & Commit)
+- Practical examples (bank transfers)
+- Failure scenarios and recovery mechanisms
+- Trade-offs and real-world applications
+- Alternative patterns (Saga, Event Sourcing, 3PC)
+- When to use and when to avoid 2PC
+
+**Best for:** Understanding distributed transaction coordination, ACID guarantees across systems, and CAP theorem implications.
+
+#### 12. Saga Pattern
+A design pattern for managing distributed transactions across multiple microservices. Learn about:
+- Choreography vs Orchestration coordination approaches
+- Compensating transactions and failure handling
+- Practical e-commerce order processing example
+- Isolation challenges and countermeasures
+- Saga vs Two-Phase Commit comparison
+- Real-world applications and industry adoption
+- Modern system design implications (cloud-native, Kubernetes, serverless)
+
+**Best for:** Understanding distributed transaction management in microservices, eventual consistency patterns, and compensating transaction design.
+
+### Resilience
+
+#### 13. Circuit Breaker Pattern
+A design pattern that prevents cascading failures in distributed systems by monitoring for failures and temporarily blocking requests to failing services. Learn about:
+- The three states: CLOSED, OPEN, and HALF-OPEN with state machine diagram
+- Fallback strategies (cached responses, default values, alternative services, graceful degradation)
+- Circuit Breaker vs Retry pattern comparison
+- Implementation with popular libraries (Resilience4j, Polly, Hystrix, Istio)
+- Monitoring, alerting, and Prometheus metrics
+- Real-world examples from Netflix, Amazon, Uber, and Twitter
+
+**Best for:** Understanding resilience patterns in microservices, cascading failure prevention, graceful degradation, and building fault-tolerant distributed systems.
+
+### Event-Driven
+
+#### 14. Event-Driven Architecture
+A comprehensive guide to event-driven architecture patterns and their applications. Learn about:
+- Four patterns from Martin Fowler: Event Notification, Event-Carried State Transfer, Event Sourcing, CQRS
+- Event delivery guarantees: at-most-once, at-least-once, exactly-once
+- Message brokers vs event streams comparison
+- Choreography vs orchestration for event-driven workflows
+- Event Sourcing deep dive: event store, snapshots, temporal queries
+- Trade-offs: loose coupling and scalability vs complexity and debugging difficulty
+
+**Best for:** Understanding event-driven patterns, Event Sourcing, and building loosely coupled, scalable systems.
+
+#### 15. Domain Event
+A pattern from Domain-Driven Design (DDD) for capturing significant state changes in the domain model. Learn about:
+- Domain Events as immutable facts about what happened (OrderPlaced, PaymentReceived)
+- Event structure: eventId, eventType, timestamp, aggregateId, payload, metadata
+- Naming conventions (past tense) and event granularity (coarse vs fine-grained)
+- Publishing from aggregates vs application services
+- Guaranteed publishing with the Transactional Outbox pattern
+- Domain Events vs Integration Events distinction
+- E-commerce example: OrderPlaced triggering inventory, payment, and notification
+- Real-world usage at Amazon, Netflix, Uber, Shopify, and Stripe
+
+**Best for:** Understanding how microservices communicate state changes, DDD event modeling, reliable event publishing, and building extensible event-driven systems.
+
+#### 16. Event Sourcing
+A pattern that stores the state of an entity as a sequence of immutable events rather than the current state. Learn about:
+- Traditional state storage vs event sourcing approach
+- Event store architecture and schema design
+- State reconstruction by replaying events
+- Snapshot optimization for performance
+- Natural pairing with CQRS for separate read/write models
+- Event schema evolution strategies (upcasting, versioning, weak schema)
+- Banking and shopping cart examples with temporal queries
+- Real-world implementations: LMAX Exchange, banking, healthcare, betting platforms
+
+**Best for:** Understanding how to build audit-complete systems, implement temporal queries, and combine Event Sourcing with CQRS for complex domain models.
+
+### Data Patterns (continued)
+
+#### 17. CQRS (Command Query Responsibility Segregation)
+An architectural pattern that separates read operations from write operations using different models. Learn about:
+- CQS principle vs CQRS pattern
+- Traditional CRUD vs CQRS architecture comparison
+- Command model (write side) and Query model (read side)
+- Natural pairing with Event Sourcing
+- Synchronization strategies and eventual consistency implications
+- Read model optimization (denormalized views, materialized views, hybrid databases)
+- Real-world examples (e-commerce product catalog, banking ledger system)
+
+**Best for:** Understanding read/write separation patterns, eventual consistency handling, and optimizing systems with very different read and write requirements.
+
+#### 18. API Composition
+A pattern for querying data spread across multiple microservices by invoking their APIs and combining the results in memory. Learn about:
+- How API Composition replaces SQL JOINs when migrating to microservices
+- Two approaches: API Gateway as composer vs dedicated composer service
+- Failure handling strategies: partial results, fallbacks, default values
+- Performance optimization: sequential vs parallel vs hybrid execution
+- Availability impact: combined availability decreases with each service dependency
+- When to outgrow API Composition and move to CQRS
+- Real-world usage: Netflix API Gateway, GraphQL as composition layer, Amazon product pages
+
+**Best for:** Understanding cross-service data querying in microservices, choosing between API Composition and CQRS, and managing the availability trade-offs.
+
+#### 19. Command-side Replica
+A pattern where a service maintains a local read-only replica of another service's data to support command-side validation without cross-service calls. Learn about:
+- How command-side replicas differ from CQRS read models
+- Event-driven synchronization from the source service
+- Using replicas for real-time command validation without network calls
+- Eventual consistency considerations and conflict resolution
+- When to use vs alternatives (API calls, CQRS, shared database)
+- Real-world usage at Amazon, Uber, Netflix, and banking systems
+
+**Best for:** Understanding how services can validate commands locally using replicated data, reducing inter-service coupling and latency in command processing.
+
+### Messaging (continued)
+
+#### 20. Transactional Outbox
 A pattern for reliably publishing events/messages as part of a database transaction in microservices. Learn about:
 - The dual write problem: atomically updating a database and publishing to a message broker
 - Writing events to an outbox table within the same ACID transaction as business data
@@ -296,7 +317,7 @@ A pattern for reliably publishing events/messages as part of a database transact
 
 **Best for:** Understanding reliable event publishing in microservices, solving the dual write problem, and enabling consistent event-driven communication without distributed transactions.
 
-#### 20. Polling Publisher
+#### 21. Polling Publisher
 A delivery mechanism for the Transactional Outbox pattern that periodically queries the outbox table for unpublished events and forwards them to the message broker. Learn about:
 - How Polling Publisher works as one of two delivery mechanisms for Transactional Outbox
 - Polling cycle: SELECT unpublished events, publish to broker, UPDATE as published
@@ -308,7 +329,7 @@ A delivery mechanism for the Transactional Outbox pattern that periodically quer
 
 **Best for:** Understanding the simpler, database-agnostic approach to outbox event delivery, and knowing when Polling Publisher is preferable to CDC-based alternatives.
 
-#### 21. Transaction Log Tailing (CDC)
+#### 22. Transaction Log Tailing (CDC)
 A pattern that reads the database's transaction log to detect and publish changes as events, commonly used as the delivery mechanism for the Transactional Outbox pattern. Learn about:
 - How database transaction logs work (WAL in PostgreSQL, binlog in MySQL)
 - Change Data Capture (CDC) as a non-invasive, low-latency event publishing mechanism
@@ -321,19 +342,6 @@ A pattern that reads the database's transaction log to detect and publish change
 **Best for:** Understanding how to reliably publish database changes as events, CDC tool selection, and building production-grade event pipelines for microservices.
 
 ### Communication (continued)
-
-#### 22. Remote Procedure Invocation (RPI)
-A synchronous inter-service communication pattern where a client sends a request to a remote service and blocks until a response is received (request/reply). Learn about:
-- RPI as the synchronous counterpart to asynchronous messaging
-- REST over HTTP: resource-oriented, JSON, HTTP caching, wide browser support
-- gRPC: binary Protocol Buffers, HTTP/2, streaming, code generation for 10+ languages
-- REST vs gRPC comparison (performance, serialization, tooling, browser support, streaming)
-- Service discovery: client-side vs server-side discovery for locating service instances
-- Failure handling: timeouts, retries with exponential backoff, Circuit Breaker integration
-- When to use RPI vs Messaging decision framework
-- Real-world usage: Google (gRPC origin from Stubby), Netflix, Uber hybrid approaches
-
-**Best for:** Understanding synchronous inter-service communication in microservices, choosing between REST and gRPC, service discovery patterns, and building resilient RPI with proper failure handling.
 
 #### 23. Idempotent Consumer
 A messaging pattern that ensures consumers can safely handle duplicate message deliveries, producing the same result regardless of how many times a message is processed. Learn about:
