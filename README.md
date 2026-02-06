@@ -14,7 +14,7 @@ All documentation is available in both **English** and **Persian (فارسی)** 
 
 | # | Topic | English | Persian (فارسی) |
 |---|-------|---------|-----------------|
-| 1 | Two-Phase Commit (2PC) | [📄 English](two-phase-commit.md) | [📄 فارسی](two-phase-commit.fa.md) |
+| 1 | Two-Phase Commit (2PC) | [📄 English](docs/two-phase-commit.md) | [📄 فارسی](docs/two-phase-commit.fa.md) |
 
 ---
 
@@ -62,12 +62,14 @@ This repository is continuously updated with new system design topics. Stay tune
 ```
 system-design-notebook/
 ├── README.md                    # This file
+├── README.fa.md                 # This file (Persian)
 ├── CLAUDE.md                    # Project instructions for Claude Code
 ├── .claude/                     # Claude Code configuration
 │   └── rules/
 │       └── communication.md     # Communication and translation rules
-├── two-phase-commit.md          # Two-Phase Commit (English)
-├── two-phase-commit.fa.md       # Two-Phase Commit (Persian)
+├── docs/                        # Documentation files
+│   ├── two-phase-commit.md      # Two-Phase Commit (English)
+│   └── two-phase-commit.fa.md   # Two-Phase Commit (Persian)
 └── ... (more topics coming soon)
 ```
 
